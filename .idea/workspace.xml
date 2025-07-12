@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c53ef39-ddc2-45e8-9c6d-8632f4ddb44b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/BonusLevel/VCG2/.idea/VCG2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonusLevel/VCG2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonusLevel/VCG2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonusLevel/VCG2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonusLevel/VCG2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonusLevel/VCG2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BonusLevel/VCG2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Level/beginer_angle.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeginnerLevel/beginer_angle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Level/beginer_intensity.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeginnerLevel/beginer_intensity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Level/beginer_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeginnerLevel/beginer_simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/.idea/media.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/.idea/media.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/VCG2/.idea/VCG2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/VCG2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/VCG2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/VCG2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/VCG2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/VCG2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/VCG2/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/danceapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/danceapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus Level/streamlit.py" beforeDir="false" afterPath="$PROJECT_DIR$/BonusLevel/streamlit.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2zl9Ubrlg3skxk9GpUWrvjSj08g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 测试.Python 测试 (test_pose_detector.py 内).executor": "Run",
+    "Python.danceapp.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Python 测试 (test_pose_detector.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SWS-VC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BonusLevel/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/BonusLevel/test/test_pose_detector.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python 测试.Python 测试 (test_pose_detector.py 内)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7c53ef39-ddc2-45e8-9c6d-8632f4ddb44b" name="更改" comment="" />
+      <created>1752294812499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752294812499</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BonusLevel/test/test_pose_detector.py</url>
+          <line>445</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

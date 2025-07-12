@@ -18,13 +18,13 @@ model = YOLO("yolov8n-pose.pt")
 # This defines the connections between keypoints for drawing the skeleton.
 # For better drawing of the skeleton, you can modify the pairs.
 skeleton = [
-    (0, 5), (0, 6),     # noise to shoulders
-    (5, 6),             # shoulders
-    (5, 7), (7, 9),     # left arm
-    (6, 8), (8, 10),    # right arm
-    (5, 11), (6, 12),   # torso sides
-    (11, 12),           # hips
-    (11, 13), (13, 15), # left leg
+    (0, 5), (0, 6),  # noise to shoulders
+    (5, 6),  # shoulders
+    (5, 7), (7, 9),  # left arm
+    (6, 8), (8, 10),  # right arm
+    (5, 11), (6, 12),  # torso sides
+    (11, 12),  # hips
+    (11, 13), (13, 15),  # left leg
     (12, 14), (14, 16)  # right leg
 ]
 
@@ -33,7 +33,7 @@ class PoseApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Stickman Dance GUI")
-        self.root.geometry("1200x600") # You can adjust the window size as needed
+        self.root.geometry("1200x600")  # You can adjust the window size as needed
 
         self.running_file = False
         self.running_cam = False
@@ -56,7 +56,8 @@ class PoseApp:
         tk.Button(self.controls_file, text="Open Video", command=self.load_video).pack(side=tk.LEFT, padx=5)
         tk.Button(self.controls_file, text="Start Video", command=self.start_video).pack(side=tk.LEFT, padx=5)
         tk.Button(self.controls_file, text="Stop Video", command=self.stop_video).pack(side=tk.LEFT, padx=5)
-        tk.Button(self.controls_file, text="Show/Hide Video", command=self.toggle_video_display).pack(side=tk.LEFT, padx=5)
+        tk.Button(self.controls_file, text="Show/Hide Video", command=self.toggle_video_display).pack(side=tk.LEFT,
+                                                                                                      padx=5)
 
         # Webcam Window
         self.label_cam = tk.Label(self.right_frame)
@@ -84,7 +85,7 @@ class PoseApp:
         self.running_file = False
         if self.cap_file:
             self.cap_file.release()
-    
+
     def toggle_video_display(self):
         self.show_video_frame = not self.show_video_frame
 
@@ -139,10 +140,10 @@ class PoseApp:
                         if pt1 < len(keypoints) and pt2 < len(keypoints):
                             x1, y1 = keypoints[pt1]
                             x2, y2 = keypoints[pt2]
-                            cv2.line(overlay, (x1, y1), (x2, y2), (0, 255, 0), 2) # green lines for skeleton
+                            cv2.line(overlay, (x1, y1), (x2, y2), (0, 255, 0), 2)  # green lines for skeleton
 
                     for x, y in keypoints:
-                        cv2.circle(overlay, (x, y), 5, (0, 0, 255), -1) # red circles for keypoints
+                        cv2.circle(overlay, (x, y), 5, (0, 0, 255), -1)  # red circles for keypoints
 
         return overlay
 
@@ -153,6 +154,7 @@ class PoseApp:
         imgtk = ImageTk.PhotoImage(image=img)
         label.imgtk = imgtk
         label.configure(image=imgtk)
+
 
 if __name__ == "__main__":
     root = tk.Tk()
